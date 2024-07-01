@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#f2f2f2</item>
+        <item name="postSplashScreenTheme">@style/Theme.Presentza</item>
+    </style>
+</resources>

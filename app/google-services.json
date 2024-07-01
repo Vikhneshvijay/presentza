@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "951130063573",
+    "project_id": "presentza-46b35",
+    "storage_bucket": "presentza-46b35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951130063573:android:f1dedc86c63d70244f985c",
+        "android_client_info": {
+          "package_name": "com.example.presentza"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrY9friRcmMSGVgwDUuPq8xAb_BjYg0Eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

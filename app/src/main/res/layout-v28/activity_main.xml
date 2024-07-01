@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_login"
+    android:layout_width="match_parent"
+    android:layout_height="812dp"
+    android:background="@drawable/container_login">
+
+    <ImageView
+        android:id="@+id/img_ellipse"
+        android:layout_width="872dp"
+        android:layout_height="553dp"
+        android:layout_marginStart="-248dp"
+        android:layout_marginTop="383dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/img_ellipse"
+        android:scaleType="centerInside"
+        tools:ignore="RtlHardcoded,VisualLintBounds"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="199dp"
+        android:layout_height="346dp"
+        android:layout_marginBottom="196dp"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/text_select_role"
+        android:layout_width="136dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="0.5dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal|top"
+        android:includeFontPadding="false"
+        android:lineHeight="39.84dp"
+        android:text="@string/select_role"
+        android:textColor="#FF000000"
+        android:textSize="22sp"
+        tools:ignore="TextSizeCheck"
+        tools:targetApi="p" />
+
+    <FrameLayout
+        android:id="@+id/container_login_student"
+        android:layout_width="191dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="494dp"
+        android:layout_gravity="top|center_horizontal">
+
+        <TextView
+            android:id="@+id/text_login_student"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="55.47dp"
+            android:layout_marginTop="5.8dp"
+            android:layout_marginEnd="50.53dp"
+            android:layout_marginBottom="7.2dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@string/student"
+            android:textColor="@drawable/text_color"
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+        <ImageView
+            android:id="@+id/img_rectangle_student"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/img_rectangle_selector"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/app_name" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_login_teacher"
+        android:layout_width="191dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="555dp"
+        android:layout_gravity="top|center_horizontal">
+
+        <TextView
+            android:id="@+id/text_login_teacher"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="56.47dp"
+            android:layout_marginTop="5.8dp"
+            android:layout_marginEnd="51.53dp"
+            android:layout_marginBottom="7.2dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@string/teacher"
+            android:textColor="@drawable/text_color"
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+        <ImageView
+            android:id="@+id/img_rectangle_teacher"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/img_rectangle_selector"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/teacher" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_login_parent"
+        android:layout_width="191dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="616dp"
+        android:layout_gravity="top|center_horizontal">
+
+        <TextView
+            android:id="@+id/text_login_parent"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="62.47dp"
+            android:layout_marginTop="5.8dp"
+            android:layout_marginEnd="58.53dp"
+            android:layout_marginBottom="7.2dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@string/parent"
+            android:textColor="@drawable/text_color"
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+        <ImageView
+            android:id="@+id/img_rectangle_parent"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/img_rectangle_selector"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/parent" />
+    </FrameLayout>
+</FrameLayout>

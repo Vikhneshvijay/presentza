@@ -1,6 +1,6 @@
 # Presentza - Android Attendance Management System
 
-<img src="app/src/main/res/drawable/LOGO.png" alt="Presentza Logo" width="200"/>
+<img src="app/src/main/res/drawable/LOGO.png" alt="Presentza Logo" width="200" allign="center"/>
 
 ## Overview
 

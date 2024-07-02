@@ -1,6 +1,6 @@
 # Presentza - Android Attendance Management System
 
-![Presentza Logo](app/src/main/res/drawable/LOGO.png)
+<img src="app/src/main/res/drawable/LOGO.png" alt="Presentza Logo" width="200"/>
 
 ## Overview
 
@@ -23,10 +23,10 @@ Presentza is an Android application designed to streamline attendance management
 
 ## Screenshots
 
-![Role_Selevction Screen](app/src/main/res/drawable/Screenshots/Login.png)
-![Login Screen](app/src/main/res/drawable/Screenshots/Parentlogin.png)
-![Registration Screen](app/src/main/res/drawable/Screenshots/Register.png)
-![Dashboard](app/src/main/res/drawable/Screenshots/Teacherdashboard.png)
+<img src="app/src/main/res/drawable/Screenshots/Login.png" alt="Role_Selevction Screen" width="300"/>
+<img src="app/src/main/res/drawable/Screenshots/Register.png" alt="Login Screen" width="300"/>
+<img src="app/src/main/res/drawable/Screenshots/Register.png" alt="Registration Screen" width="300"/>
+<img src="app/src/main/res/drawable/Screenshots/Teacherdashboard.png" alt="Dashboard" width="300"/>
 
 ## Tools and Technologies
 
